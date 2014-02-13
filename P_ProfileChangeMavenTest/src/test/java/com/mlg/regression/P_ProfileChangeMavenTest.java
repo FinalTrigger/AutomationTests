@@ -23,7 +23,7 @@ public class P_ProfileChangeMavenTest {
 //Before the test begins, creates a new webdriver and sets the base url
   @Before
   public void setUp() throws Exception {
-    driver = new RemoteWebDriver(new URL("http://ddavison:f547602f-836c-4483-bb90-962916d65260@ondemand.saucelabs.com:80/wd/hub"), DesiredCapabilities.chrome());
+    driver = new FirefoxDriver();
     baseUrl = "http://gamebattles.majorleaguegaming.com/";
     driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
