@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: P_ProfileChangeMavenTest
+Test set: com.mlg.regression.P_ProfileChangeMavenTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 42.104 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 39.343 sec
