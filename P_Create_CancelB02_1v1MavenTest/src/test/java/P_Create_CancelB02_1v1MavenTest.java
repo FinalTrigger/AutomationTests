@@ -9,7 +9,7 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
-import java.util.Random; 
+import java.util.Random;
 
 
 public class P_Create_CancelB02_1v1MavenTest {
@@ -17,7 +17,7 @@ public class P_Create_CancelB02_1v1MavenTest {
   private String baseUrl;
   private boolean acceptNextAlert = true;
   private StringBuffer verificationErrors = new StringBuffer();
-  
+
 
   @Before
   public void setUp() throws Exception {
@@ -38,7 +38,7 @@ public class P_Create_CancelB02_1v1MavenTest {
     driver.findElement(By.xpath("//input[@id='login']")).sendKeys("MLGQA");
     //Enter Password
     System.out.println("Entering Password");
-    driver.findElement(By.xpath("//input[@id='login_password']")).sendKeys("M1Gr0x!!");
+    driver.findElement(By.xpath("//input[@id='login_password']")).sendKeys("AnyPassword");
     //Click LogIn Button
     System.out.println("Submit Log In");
     driver.findElement(By.className("login-button")).click();

@@ -22,7 +22,7 @@ public class P_Create_TeamB02_1v1MavenTest {
   private String baseUrl;
   private boolean acceptNextAlert = true;
   private StringBuffer verificationErrors = new StringBuffer();
-  
+
 
   @Before
   public void setUp() throws Exception {
@@ -44,7 +44,7 @@ public class P_Create_TeamB02_1v1MavenTest {
     driver.findElement(By.xpath("//input[@id='login']")).sendKeys("MLGQA");
     //Enter Password
     System.out.println("Entering Password");
-    driver.findElement(By.xpath("//input[@id='login_password']")).sendKeys("M1Gr0x!!");
+    driver.findElement(By.xpath("//input[@id='login_password']")).sendKeys("AnyPassword");
     //Click LogIn Button
     System.out.println("Submit Log In");
     driver.findElement(By.className("login-button")).click();
@@ -102,7 +102,7 @@ public class P_Create_TeamB02_1v1MavenTest {
     driver.get("http://gamebattles.majorleaguegaming.com/xbox360/call-of-duty-black-ops-ii/team/${teamName}");
     System.out.println("Team "+teamName+" was created successfully!");
     System.out.println("**P_CreatE_TeamB02_1v1 Test Case Complete**");
-    
+
   }
 
   @After

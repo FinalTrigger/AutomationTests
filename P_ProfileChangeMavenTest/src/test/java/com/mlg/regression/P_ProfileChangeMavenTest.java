@@ -19,7 +19,7 @@ public class P_ProfileChangeMavenTest {
   private WebDriver driver;
   private String baseUrl;
   private StringBuffer verificationErrors = new StringBuffer();
-  
+
 //Before the test begins, creates a new webdriver and sets the base url
   @Before
   public void setUp() throws Exception {
@@ -41,7 +41,7 @@ public class P_ProfileChangeMavenTest {
     driver.findElement(By.xpath("//input[@id='login']")).sendKeys("MLGQA");
     //Enter Password
     System.out.println("Entering Password");
-    driver.findElement(By.xpath("//input[@id='login_password']")).sendKeys("M1Gr0x!!");
+    driver.findElement(By.xpath("//input[@id='login_password']")).sendKeys("AnyPassword");
     //Click LogIn Button
     System.out.println("Submit Log In");
     driver.findElement(By.className("login-button")).click();
@@ -67,7 +67,7 @@ public class P_ProfileChangeMavenTest {
     //Console Output of Assert Statement Above
     System.out.println("Profile has been updated!");
     System.out.println("**P_ProfileChangeTestCase Complete!**");
-    
+
   }
 
   @After
